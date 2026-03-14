@@ -4,7 +4,9 @@
 
 # BRIDGE GenAI Lab
 
-**Securing the future of autonomous AI agents in healthcare.**
+**Safe AI. Real Medicine. True Impact.**
+
+BIDMC · DFCI · Harvard Medical School
 
 [![Website](https://img.shields.io/badge/Website-bridgegenai.org-blue?style=flat-square)](https://bridgegenai.org)
 [![Papers](https://img.shields.io/badge/Papers-Google_Scholar-4285F4?style=flat-square&logo=google-scholar)](https://scholar.google.com/citations?user=YOUR_ID)
@@ -13,36 +15,35 @@
 
 ---
 
-We build defenses for the next generation of AI. As large language models become autonomous agents — browsing the web, calling APIs, executing code — they inherit a new class of security threats. **BRIDGE GenAI Lab** researches how these agents fail, how adversaries exploit them, and how to make them safe for high-stakes environments like clinical medicine.
+We test AI the way it should be tested before it touches patients.
 
-### Research Focus
+BRIDGE (BIDMC–DFCI Radiology & Imaging GenAI Hub) is a clinical research lab that evaluates, stress-tests, and builds generative AI for medicine. We study how large language models actually perform in clinical workflows, where they fail, who they fail differently for, and what it takes to make them safe enough to deploy and useful enough to matter.
+
+Our work spans millions of AI-generated clinical responses, dozens of models, and real clinical settings across radiology, emergency medicine, oncology, primary care, and beyond.
+
+### Research Pillars
 
 <table>
 <tr>
-<td width="50%">
+<td width="33%">
 
-**Agent Security & Adversarial Robustness**
-How do LLM agents behave when their tools are compromised? We study tool poisoning attacks, prompt injection through tool outputs, and cascading failures in multi-agent systems.
+**Bias & Equity**
 
-</td>
-<td width="50%">
-
-**Agentic Vaccines & Defense Mechanisms**
-Inspired by biological immunology, we develop proactive defense protocols that inoculate LLM agents against known attack patterns — before deployment, not after breach.
+How AI treats different patients differently, and why it matters. We run large-scale counterfactual evaluations, swapping demographic labels across thousands of clinical vignettes to quantify disparities that no manual audit could catch. Our studies have uncovered 7x disparities in mental health recommendations and internally contradictory prescribing patterns across race, gender, and socioeconomic status.
 
 </td>
-</tr>
-<tr>
-<td width="50%">
+<td width="33%">
 
-**Safe Deployment in Clinical AI**
-Healthcare demands the highest safety bar. We design evaluation frameworks and guardrails for deploying AI agents in clinical decision support, medical documentation, and patient-facing systems.
+**AI Safety & Reliability**
+
+Where models fail, hallucinate, and overestimate themselves. We design adversarial stress tests, plant fabricated clinical details into vignettes, and probe models with real-world misinformation. Key finding: models elaborated on planted fabrications in up to 83% of cases. We also study agentic LLM vulnerabilities, tool poisoning attacks, and defense mechanisms like agentic vaccination protocols.
 
 </td>
-<td width="50%">
+<td width="33%">
 
-**Trustworthy Tool Ecosystems**
-How should agents decide which tools to trust? We research tool provenance verification, runtime integrity checks, and trust calibration in open tool marketplaces.
+**Clinical Translation**
+
+Bridging benchmarks and bedside. We evaluate AI in real diagnostic workflows, measuring saliency bias, base-rate neglect, triage accuracy, and compression harms in AI-generated clinical summaries. The goal: evaluation frameworks that any hospital or AI company can use before deployment.
 
 </td>
 </tr>
@@ -52,30 +53,45 @@ How should agents decide which tools to trust? We research tool provenance verif
 
 | Repository | Description |
 |:---|:---|
-| [**When-Agentic-LLM-Trust-Poisoned-Tools**](https://github.com/BRIDGE-GenAI-Lab/When-Agentic-LLM-Trust-Poisoned-Tools) | Systematic analysis of LLM agent behavior under tool poisoning attacks across multiple model families and tool configurations. |
-| [**AgenticVaccine_For_LLMs**](https://github.com/BRIDGE-GenAI-Lab/AgenticVaccine_For_LLMs) | A proactive defense framework that vaccinates LLM agents against adversarial tool manipulation before deployment. |
+| [**When-Agentic-LLM-Trust-Poisoned-Tools**](https://github.com/BRIDGE-GenAI-Lab/When-Agentic-LLM-Trust-Poisoned-Tools) | What happens when LLM agents trust compromised tools? Systematic analysis across multiple model families and tool configurations. |
+| [**AgenticVaccine_For_LLMs**](https://github.com/BRIDGE-GenAI-Lab/AgenticVaccine_For_LLMs) | A proactive defense framework that inoculates LLM agents against adversarial tool manipulation before deployment. |
+
+### Scale
+
+Our studies collectively span **4M+ AI-generated clinical responses**, **20+ LLMs** tested simultaneously, **1,000+ physician-designed clinical vignettes**, and publications in **Nature Medicine**, **The Lancet Digital Health**, **JAMA Network Open**, **Nature Communications Medicine**, and other leading journals.
 
 ### Our Approach
 
-We don't just find vulnerabilities — we build defenses. Every attack paper ships with a mitigation strategy. Every benchmark includes a safety evaluation. We believe responsible AI security research means giving defenders the tools they need, not just documenting the threats.
+We don't just document threats. Every attack ships with a defense. Every bias paper includes mitigation testing. Every benchmark is designed to be reproducible and open.
+
+Clinicians. Researchers. Builders.
 
 ### Get Involved
 
-We welcome collaborators from AI safety, security, NLP, and clinical informatics.
+We welcome collaborators from AI safety, clinical informatics, NLP, and health equity research.
 
-- **Use our tools** — All public repos include install instructions and quickstart guides
-- **Cite our work** — BibTeX entries are in each repo's README
-- **Report vulnerabilities** — See our [Security Policy](https://github.com/BRIDGE-GenAI-Lab/.github/blob/main/SECURITY.md)
-- **Collaborate** — Reach out via email or open a Discussion
+- **Use our tools** · All public repos include installation instructions and quickstart guides
+- **Cite our work** · BibTeX entries are in each repo's README
+- **Report vulnerabilities** · See our [Security Policy](https://github.com/BRIDGE-GenAI-Lab/.github/blob/main/SECURITY.md)
+- **Collaborate** · Open a Discussion or reach out via email
+
+### Team
+
+| | |
+|:---|:---|
+| **Eyal Klang, MD** | Co-Director · Radiologist, BIDMC · ~15,800 citations |
+| **Yiftach Barash, MD, MSc** | Co-Director · Interventional Radiologist, BIDMC · Harvard Medical School |
+| **Mahmud Omar, MD** | Head of Research · Family Physician & Medical AI Researcher |
+| **Alon Gorenshtein, MD** | Head of AI Engineering · Physician-Scientist, Harvard Medical School |
 
 ### Contact
 
-- **Lab Lead**: [Mahmud Omar, MD](https://github.com/mahmud-omar) — Physician-researcher, Beth Israel Deaconess Medical Center / Harvard Medical School
+- **Web**: [bridgegenai.org](https://bridgegenai.org)
 - **Email**: mahmudomar70@gmail.com
 - **Location**: Boston, MA
 
 ---
 
 <div align="center">
-<sub>Building bridges between AI capability and clinical safety.</sub>
+<sub>Safe AI. Real Medicine. True Impact.</sub>
 </div>

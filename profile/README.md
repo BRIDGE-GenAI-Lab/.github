@@ -79,16 +79,14 @@ We welcome collaborators from AI safety, clinical informatics, NLP, and health e
 
 | | |
 |:---|:---|
-| **Eyal Klang, MD** | Co-Director · Radiologist, BIDMC · ~15,800 citations |
-| **Yiftach Barash, MD, MSc** | Co-Director · Interventional Radiologist, BIDMC · Harvard Medical School |
-| **Mahmud Omar, MD** | Head of Research · Family Physician & Medical AI Researcher |
-| **Alon Gorenshtein, MD** | Head of AI Engineering · Physician-Scientist, Harvard Medical School |
+| **Eyal Klang, MD** | Co-Director |
+| **Yiftach Barash, MD, MSc** | Co-Director |
+| [**Mahmud Omar, MD**](https://github.com/MahmudOmar11) | Head of Research |
+| [**Alon Gorenshtein, MD**](https://github.com/Alon-Gorenshtein) | Head of AI Engineering |
 
 ### Contact
 
-- **Web**: [bridgegenai.org](https://bridgegenai.org)
-- **Email**: mahmudomar70@gmail.com
-- **Location**: Boston, MA
+[**Contact us**](https://bridgegenai.org/) · Boston, MA
 
 ---
 

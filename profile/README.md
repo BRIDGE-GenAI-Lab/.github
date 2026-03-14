@@ -58,7 +58,7 @@ Bridging benchmarks and bedside. We evaluate AI in real diagnostic workflows, me
 
 ### Scale
 
-Our studies collectively span **4M+ AI-generated clinical responses**, **20+ LLMs** tested simultaneously, **1,000+ physician-designed clinical vignettes**, and publications in **Nature Medicine**, **The Lancet Digital Health**, **JAMA Network Open**, **Nature Communications Medicine**, and other leading journals.
+Our studies collectively span **millions of API-evaluated clinical responses** across all major **frontier and open-source models**, with tens of peer-reviewed articles in venues like **Nature Medicine**, **The Lancet Digital Health**, **JAMA Network Open**, and **Nature Communications Medicine**.
 
 ### Our Approach
 

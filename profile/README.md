@@ -1,13 +1,12 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/BRIDGE-GenAI-Lab/.github/main/assets/bridge-logo.png" alt="BRIDGE GenAI Lab" width="200"/>
+<img src="https://raw.githubusercontent.com/BRIDGE-GenAI-Lab/.github/main/assets/BRIDGE_updated_trans.png" alt="BRIDGE GenAI Lab" width="200"/>
 
 # BRIDGE GenAI Lab
 
 **Securing the future of autonomous AI agents in healthcare.**
 
-[![Website](https://img.shields.io/badge/Website-bridgegenailab.org-blue?style=flat-square)](https://bridgegenailab.org)
-[![Twitter](https://img.shields.io/badge/Twitter-@BRIDGEGenAI-1DA1F2?style=flat-square&logo=twitter)](https://twitter.com/BRIDGEGenAI)
+[![Website](https://img.shields.io/badge/Website-bridgegenai.org-blue?style=flat-square)](https://bridgegenai.org)
 [![Papers](https://img.shields.io/badge/Papers-Google_Scholar-4285F4?style=flat-square&logo=google-scholar)](https://scholar.google.com/citations?user=YOUR_ID)
 
 </div>

@@ -56,6 +56,31 @@ Bridging benchmarks and bedside. We evaluate AI in real diagnostic workflows, me
 | [**When-Agentic-LLM-Trust-Poisoned-Tools**](https://github.com/BRIDGE-GenAI-Lab/When-Agentic-LLM-Trust-Poisoned-Tools) | What happens when LLM agents trust compromised tools? Systematic analysis across multiple model families and tool configurations. |
 | [**AgenticVaccine_For_LLMs**](https://github.com/BRIDGE-GenAI-Lab/AgenticVaccine_For_LLMs) | A proactive defense framework that inoculates LLM agents against adversarial tool manipulation before deployment. |
 
+### Selected Publications
+
+<table>
+<tr>
+<td>🔬</td>
+<td><a href="https://bridgegenai.org/sociodemographic-biases-llm"><b>Sociodemographic Biases in Medical Decision Making by LLMs</b></a><br><i>Nature Medicine, 2025</i><br>1.7M responses reveal systematic clinical disparities. LGBTQIA+ patients received mental health referrals at 6-7x the physician baseline.</td>
+</tr>
+<tr>
+<td>🛡️</td>
+<td><a href="https://bridgegenai.org/chatgpt-health-triage"><b>ChatGPT Health Performance in Structured Triage</b></a><br><i>Nature Medicine, 2026</i><br>ChatGPT Health shows an inverted U-shaped accuracy pattern, missing over half of true emergencies while over-triaging non-urgent cases.</td>
+</tr>
+<tr>
+<td>💊</td>
+<td><a href="https://bridgegenai.org/pain-management-gaps"><b>Socio-demographic Gaps in Pain Management Guided by LLMs</b></a><br><i>Nature Health, 2026</i><br>10 LLMs systematically recommend more aggressive opioid treatment for marginalized populations across identical clinical scenarios.</td>
+</tr>
+<tr>
+<td>📰</td>
+<td><a href="https://bridgegenai.org/misinformation-susceptibility"><b>Mapping LLM Susceptibility to Medical Misinformation</b></a><br><i>The Lancet Digital Health, 2026</i><br>20 LLMs benchmarked against 3.4M prompts with fabricated medical claims to map which formats and fallacies fool models most.</td>
+</tr>
+<tr>
+<td>⚠️</td>
+<td><a href="https://bridgegenai.org/adversarial-hallucinations"><b>Adversarial Hallucination Attacks During Clinical Decision Support</b></a><br><i>Communications Medicine, 2025</i><br>Models repeated planted clinical fabrications in up to 83% of cases. Prompt engineering reduced errors only to ~44%.</td>
+</tr>
+</table>
+
 ### Scale
 
 Our studies collectively span **millions of API-evaluated clinical responses** across all major **frontier and open-source models**, with tens of peer-reviewed articles in venues like **Nature Medicine**, **The Lancet Digital Health**, **JAMA Network Open**, and **Nature Communications Medicine**.
